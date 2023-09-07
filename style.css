@@ -1,0 +1,96 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    background: #F9F9F9;
+    height: 10rem;
+    font-family: sans-serif;
+}
+
+ul{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 10rem;
+}
+
+li, input{
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.image_header{
+    width: 7rem;
+    height: 7rem;
+    margin-top: 2rem;
+}
+
+.search{
+    margin-right: 5rem;
+    width: 20rem;
+    height: 3rem;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+}
+
+.section_first{
+    width: auto;
+    height: 120rem;
+}
+
+div{
+    width: auto;
+}
+
+.Loki_img{
+    height: 50rem;
+    margin-left: 30rem;
+    margin-top: 5rem;
+    border-radius: 1rem;
+}
+
+.Marvel_title{
+    font-size: 3rem;
+    margin-left: 50rem;
+    margin-top: 4rem;
+    font-family: sans-serif;    
+}
+
+.Marvel_text{
+    font-family: sans-serif;
+    font-size: 2rem;
+    line-height: 1.50;
+    margin-top: 2rem;
+    margin-left: 35rem;
+    width: 80rem;
+}
+
+
+.Oppenheimer_title{
+    font-size: 3rem;
+    margin-left: 40rem;
+    margin-top: 4rem;
+    font-family: sans-serif;
+}
+
+.AsteroidCity_title{
+    font-size: 3rem;
+    margin-left: 35rem;
+    margin-top: 4rem;
+    font-family: sans-serif;
+}
+
+footer{
+    background: #F9F9F9;
+    height: 20rem;
+
+}
